@@ -17,7 +17,7 @@ int main() {
 	//Division - a/b
 	if (b == 0)
 		cout << "\nDivision is NOT defined, as b = 0.";
-	else if (floor(a) == a && floor(b) == b) //When both the inputs are inetgers
+	else if (floor(a) == a && floor(b) == b) //When both the inputs are integers
 		cout << "\nDivision of " << a << " and " << b << " results in " << floor(abs(a/b)) << " as quotient, and " << remainder(a,b) << " as remainder.";
 	else //When any of the input is non-integer
 		cout << "\nDivision of " << a << " and " << b << " results in " << (a/b) << " as quotient.";
