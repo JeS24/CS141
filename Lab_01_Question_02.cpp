@@ -1,4 +1,4 @@
-//Write a C++ program to enter two numbers and find their sum.
+//A C++ program to enter two numbers and find their sum.
 
 #include <iostream>
 using namespace std;
