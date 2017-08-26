@@ -17,5 +17,5 @@ int main() {
 	amt = round(amt*100)/100; //Rounding off to nearest "Paise" (₹0.01) value
 	CI = amt-prinA;
 	cout << "\nCompound Interest on a principal amount of ₹" << prinA << " for a time period of " << timeP << " years, at a rate of interest of " << rate << "%: ₹" << CI << endl;
-	cout << "And, total Amount, to be repayed, after " << timeP << " years: ₹" << amt;
+	cout << "And, total Amount, to be repaid, after " << timeP << " years: ₹" << amt;
 }
