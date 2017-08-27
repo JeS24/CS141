@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 	double len, wid;
-	cout << "Enter the length and breadth (in a particular order, i.e. \"a\", then \"b\"):" << endl;
+	cout << "Enter the length and breadth:" << endl;
 	cin >> len >> wid;
 	if(abs(len) != len || abs(wid) != wid) //Check for -ve input
 		cout << "\nError: Dimensions cannot be negative!!";
