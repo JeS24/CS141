@@ -13,5 +13,5 @@ int main() {
 	cin >> timeP;
 	SI = (prinA*rate*timeP)/100;
 	cout << "\nSimple Interest on a principal amount of ₹" << prinA << " for a time period of " << timeP << " years, at a rate of interest of " << rate << "%: ₹" << SI << endl;
-	cout << "And, total Amount, to be repayed: ₹" << (prinA+SI);
+	cout << "And, total Amount, to be repaid: ₹" << (prinA+SI);
 }
