@@ -17,7 +17,7 @@ int main() {
     string tagD, tagW, tagY, tagWD, tags[] = {" day refers to ", " days refer to ", " day (approximately).", " days (approximately).", " week ", " weeks ", " year, ", " years, "};
 
     //Input
-    cout << "Enter number of days:" << endl;
+    cout << "Enter the number of days:" << endl;
     cin >> n_days;
 
     //Calculation
@@ -38,7 +38,7 @@ int main() {
         tagWD = tags[3];
         tagW = tags[5];
         tagY = tags[7];
-    }
+    }//A 'for' loop would only increase the computational complexity - Hence, not used.
 
     //Output
     cout << endl << n_days << tagD << (int)n_years << tagY << (int)n_weeks << tagW << "and " << round(n_w_days) << tagWD;
