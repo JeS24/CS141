@@ -1,3 +1,4 @@
+//A C++ program to print all the perfect numbers, between the given interval, using functions
 #include <iostream>
 using namespace std;
 
