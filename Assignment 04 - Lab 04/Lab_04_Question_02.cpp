@@ -1,3 +1,4 @@
+//A C++ program to find diameter, circumference and area of a circle, using functions
 #include <iostream>
 #include <cmath>
 using namespace std;
