@@ -1,3 +1,4 @@
+//A C++ program to print all the strong numbers, between the given interval, using functions
 #include <iostream>
 using namespace std;
 
