@@ -1,4 +1,4 @@
-//A C++ program to check, whether a number is prime, Armstrong or perfect, using functions.
+//A C++ program to check, whether a number is Prime, Armstrong or Perfect, using functions
 #include <iostream>
 #include <cmath>
 using namespace std;
