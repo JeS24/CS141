@@ -1,4 +1,4 @@
-//A C++ program to find cube of any number using a function.
+//A C++ program to find the cube of any number, using a function
 #include <iostream>
 using namespace std;
 
