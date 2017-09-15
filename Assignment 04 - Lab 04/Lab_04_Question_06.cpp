@@ -1,3 +1,4 @@
+//A C++ program to find all the prime numbers, between the given interval, using functions
 #include <iostream>
 using namespace std;
 
