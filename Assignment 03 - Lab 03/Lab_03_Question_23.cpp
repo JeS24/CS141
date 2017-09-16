@@ -9,8 +9,8 @@ int main()
     if (n > 0) //So, 'n' can't be '0' or '-ve'
         cout << "\nHere's the natural number sequence, in reverse: " << endl;
     else {
-        cout << "Invalid index!\n" << endl;
-        return -1; //Error
+        cout << "Invalid index! Please input again!\n" << endl;
+        main(); //Error
     }
     while(n > 0) {
         cout << n;

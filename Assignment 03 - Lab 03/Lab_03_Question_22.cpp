@@ -7,8 +7,8 @@ int main()
     cout << "Enter the end-index, 'n': ";
     cin >> n;
     if (n < i) { //So, 'n' can't be '0' or '-ve'
-        cout << "Invalid index!\n" << endl;
-        return -1; //Error
+        cout << "Invalid index! Please input again!\n" << endl;
+        main(); //Error
     }
     cout << "\nHere's the natural number sequence: " << endl;
     while(i <= n) {
