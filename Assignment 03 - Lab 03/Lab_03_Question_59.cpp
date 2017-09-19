@@ -20,9 +20,4 @@ int main()
            comp[j] = '1';
     }
     cout << "\nTwo's Complement of " << bin << ": " << comp << endl;
-    /*
-    for (int i = 0 ; i < bin.size() ; i++)
-        comp.insert(i, (bin[i] == '1')?"0":"1");
-    
-    c*/
 }
