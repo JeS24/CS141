@@ -12,7 +12,7 @@ int rev(long param)
 int main()
 {
     long num;
-    cout << "Enter a natural number (Any other input will be parsed as a natural number): ";
+    cout << "Enter a natural number: ";
     cin >> num;
     cout << "Reverse of " << num << " :" << rev(num) << endl;
 }
