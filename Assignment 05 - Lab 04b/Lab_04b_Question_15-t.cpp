@@ -5,24 +5,21 @@ short len;
 long big, small;
 long getBig(long param[], long b, short i)
 {
+for (int i = 0; i )
+
     if (b < param[i])
         b = param[i];
-    cout << "\n-<<" << b;
     if (++i < len)
         getBig(param, b, i);
-    big = b;
-    return big;
 }
 
-long getSmall(long param[], long s, short j) // -12, 2, 4, -34 || -12, 0 --> | -12, 0-1 | -12, 1-2 | -12--34, 2-3
+long getSmall(long param[], long s, short j) // 2, -12, 4, -34 |
 {
-    small = s;
     if (s > param[j])
         s = param[j];
-    cout << "\n->>" << s;
     if (j++ < len)
         getSmall(param, s, j);
-    return small;
+    return s;
 }
 
 int main()
