@@ -15,6 +15,11 @@ int main()
 {
     cout << "Enter the length of the array: ";
     cin >> len;
+    while (len < 1) {
+         cout << "\nERROR: The length of the array must be positive! Please input again!" << endl;
+         cout << "\nEnter the length of the array: ";
+         cin >> len;
+    }
     long arr[len];
     cout << "\nEnter the array-elements, one-by-one: " << endl;
     for (int i = 0 ; i < len ; i++)
