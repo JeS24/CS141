@@ -21,9 +21,9 @@ void printStrong()
 {
     for (long i = Start ; i <= End ; i++) {
         long sum = 0;
-        for (long j = i ; j > 0 ; j /= 10) {
+        for (long j = i ; j > 0 ; j /= 10) { //Checks each number
             long fact = 1;
-            for (short k = (j%10) ; k > 1 ; k--)
+            for (short k = (j%10) ; k > 1 ; k--) //Calculates Factorial
                 fact *= k;
             sum += fact;
         }
