@@ -9,9 +9,10 @@ int main()
 {
     cout << "Enter the beginning and end-indices, one-by-one: " << endl;
     cin >> Start >> End;
-    if (Start < 1 || End < 1 || Start > End) {
+    while (Start < 1 || End < 1 || Start > End) {
         cout << "\nERROR: The input is not valid! Please try again!" << endl;
-        main();
+        cout << "\nEnter the beginning and end-indices, one-by-one: " << endl;
+        cin >> Start >> End;
     }
     cout << "\nList of Strong Numbers, between " << Start << " and " << End << ":" << endl;
     printStrong();

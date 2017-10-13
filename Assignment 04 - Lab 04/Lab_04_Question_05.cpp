@@ -13,9 +13,10 @@ int main()
     short choice;
     cout << "Enter a number: ";
     cin >> num;
-    if (num < 0) {
+    while (num < 0) {
         cout << "\nERROR: The entered number must be positive! Please input again!" << endl;
-        main();
+        cout << "\nEnter a number: ";
+        cin >> num;
     }
     cout << "\nWhat do you want to check?\n\n1. Check for Prime Number\n2. Check for Armstrong Number\n3. Check for Perfect Number\nYour Choice (1/2/3): ";
     cin >> choice;
