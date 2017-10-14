@@ -20,6 +20,6 @@ int main()
         case 10: cout << "\n'October' has 31 days!" << endl; return 0;
         case 11: cout << "\n'November' has 30 days!" << endl; return 0;
         case 12: cout << "\n'December' has 31 days!" << endl; return 0;
-        default: cout << "\nERROR: Month-Number must lie between 1 and 12! Please input again!" << endl; main();
+        default: cout << "\nERROR: Month-Number must lie between 1 and 12! Please input again!" << endl;
     }
 }

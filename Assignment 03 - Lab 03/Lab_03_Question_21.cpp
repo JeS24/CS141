@@ -7,9 +7,10 @@ int main()
     double charge;
     cout << "Enter the number of units consumed: ";
     cin >> units;
-    if (units < 0) {
+    while (units < 0) {
         cout << "\nERROR: Number of units cannot be negative! Please input again!" << endl;
-        main();
+        cout << "\nEnter the number of units consumed: ";
+        cin >> units;
     }
     if (units <= 50)
         charge = units*0.5;

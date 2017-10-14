@@ -6,13 +6,13 @@ int main()
     long n;
     cout << "Enter the index, 'n': ";
     cin >> n;
-    if (n > 0) //So, 'n' can't be '0' or '-ve'
-        cout << "\nHere's the natural number sequence, in reverse: " << endl;
-    else {
+    while (n <= 0) { //So, 'n' can't be '0' or '-ve'
         cout << "Invalid index! Please input again!\n" << endl;
-        main(); //Error
+        cout << "\nEnter the index, 'n': ";
+        cin >> n;
     }
-    while(n > 0) {
+    cout << "\nHere's the natural number sequence, in reverse: " << endl;
+    while (n > 0) {
         cout << n;
         n--;
         cout << ", ";
