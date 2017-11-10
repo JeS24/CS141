@@ -6,14 +6,14 @@ using namespace std;
 class ZooAnimal  
 {
     private:
-        char *name;
+        char* name;
         int cageNumber;
         int weightDate;
         int weight;
 
     public:
         void Destroy(); // 'Destroy' function
-        void Create(char *n, int cN, int wDt, int W);
+        void Create(char* n, int cN, int wDt, int W);
         char* reptName();
         int daysSinceLastWeighed(int today);
 };
@@ -21,13 +21,14 @@ class ZooAnimal
 //QUESTION 5 - PART 2
 
 void ZooAnimal::Create(char *n, int cN, int wDt, int W) {
-    strcpy(name, n);
+    name = n;
     cageNumber = cN;
     weightDate = wDt;
     weight = W;
 }
 
 void ZooAnimal::Destroy() {
+    name = NULL;
     delete [] name;
 }
 
@@ -58,8 +59,8 @@ int main()
 {
     ZooAnimal bozo;
     bozo.Create("Bozo", 408, 1027, 400); //Warning-flags raised -> """ISO C++ forbids converting a string constant to ‘char*’"""
-    cout << "This animal's name is " << bozo.reptName() << endl;
-    //bozo.Destroy ();
+    cout << "This animal's name is " << bozo.reptName() << '.' << endl;
+    bozo.Destroy();
     
     return 0;
 }
