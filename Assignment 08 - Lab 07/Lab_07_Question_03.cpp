@@ -38,8 +38,8 @@ int main(void) {
     rect2.breadth = b;
 
     //Equal case ignored ->> Probably should not.
-    cout << "\nThe " << ((rect1.area() > rect2.area())?"first":"second") << " rectangle has a larger Area.";
-    cout << " And, the " << ((rect1.perimeter() > rect2.perimeter())?"first":"second") << " rectangle has a larger Perimeter." << endl;
+    cout << "\nThe " << ((rect1.area() > rect2.area())?"first":"second") << " rectangle has a larger area.";
+    cout << " And, the " << ((rect1.perimeter() > rect2.perimeter())?"first":"second") << " rectangle has a larger perimeter." << endl;
 
     return 0;
 }
