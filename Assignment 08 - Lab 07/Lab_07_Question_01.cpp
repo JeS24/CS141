@@ -32,5 +32,4 @@ int main() {
     cout << "Volume of Box2: " << volume << endl;
 
     return 0;
-
 }
