@@ -3,12 +3,13 @@ using namespace std;
 
 class Rectangle {
     public:
+        //Member variable declaration
         double length;
         double breadth;
 
-    //Member function declaration
-    double area();
-    double perimeter();
+        //Member function declaration
+        double area();
+        double perimeter();
 };
 
 double Rectangle::area() {

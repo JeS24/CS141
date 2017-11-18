@@ -2,17 +2,17 @@
 using namespace std;
 
 class Box {
-public:
-    double length; //Length of a box
-    double breadth; //Breadth of a box
-    double height; //Height of a box
+    public:
+        double length; //Length of a box
+        double breadth; //Breadth of a box
+        double height; //Height of a box
 };
 
 int main() {
     Box Box1; //Declare Box1 of type, 'Box'
     Box Box2; //Declare Box2 of type, 'Box'
     double volume = 0.0d; //Store the volume of a box here
-
+    
     //Box1 specifications
     Box1.height = 5.0;
     Box1.length = 6.0;
