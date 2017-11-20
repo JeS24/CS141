@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cmath>
-
 using namespace std;
 
 double power(double param, int n)

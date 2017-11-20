@@ -11,6 +11,6 @@ int main() {
 	if(abs(len) != len || abs(wid) != wid) //Check for -ve input
 		cout << "\nError: Dimensions cannot be negative!!";
 	else
-		cout << "\nRectangle\'s area: " << (len*wid) << " square units";
+		cout << "\nRectangle's area: " << (len*wid) << " square units";
 	return 0;
 }

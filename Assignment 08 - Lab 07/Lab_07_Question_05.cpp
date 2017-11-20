@@ -2,7 +2,7 @@
 using namespace std;
 
 //QUESTION 5 - PART 1
-class ZooAnimal  
+class ZooAnimal
 {
     private:
         char* name;
@@ -18,6 +18,7 @@ class ZooAnimal
 };
 
 //QUESTION 5 - PART 2
+
 
 void ZooAnimal::Create(char *n, int cN, int wDt, int W) {
     name = n;

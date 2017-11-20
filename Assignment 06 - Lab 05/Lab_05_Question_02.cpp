@@ -33,7 +33,7 @@ double getMean(double param[])
 double getMedian(double param[], int len)
 {
     if (len % 2 != 0)
-        return param[(int)len/2];
+        return param[len/2];
     else if (len % 2 == 0)
         return ((param[(len-1)/2]+param[((len-1)/2)+1])/2);
 }
